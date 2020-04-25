@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="options.css" type="text/css">
+    </head>
+
+    <body>
+        <form class="browser-style">
+            <p>
+                <label for="prevent">Prevent opening in new tab:</label>
+            </p>
+            <textarea id="prevent" placeholder="New-line separated list of hostnames, eg. www.example.com"></textarea>
+            <p>
+                <label for="force">Force opening in new tab:</label>
+            </p>
+            <textarea id="force" placeholder="New-line separated list of hostnames, eg. www.example.com"></textarea>
+            <p>
+                <input type="submit" id="save" value="Uložit"> <span id="saved">✔ Uloženo</span> <span id="invalid">✘ Chyba při ukládání</span>
+            </p>
+        </form>
+        <script src="options.js"></script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#saved, #invalid {
+    display: none;
+    padding-left: 1em;
+    color: #0c0;
+}
+
+#invalid {
+    color: #c00;
+}
+
+textarea {
+    width: 100%;
+    min-height: 8em;
+    padding: .5em;
+}
